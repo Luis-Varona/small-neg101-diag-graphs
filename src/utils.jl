@@ -221,7 +221,9 @@ function filter_geng_to_laplacian_integral(
 end
 
 function canonize_graph6_strings(g6_strings::Vector{String})
-    return readlines(pipeline(IOBuffer(join(g6_strings, "\n") * "\n"), `labelg -q -g`))
+    return unique(
+        readlines(pipeline(IOBuffer(join(g6_strings, "\n") * "\n"), `labelg -q -g`))
+    )
 end
 
 function is_cograph(g::SimpleGraph)
