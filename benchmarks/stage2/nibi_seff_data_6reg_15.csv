@@ -1,0 +1,2 @@
+job_id,label,state,exit_code,nodes,cores_per_node,cpu_utilized,cpu_efficiency,core_walltime,wall_clock,mem_utilized,mem_efficiency,mem_allocated
+16785620,6reg_15,COMPLETED,0,1,1,00:00:28,75.68%,00:00:37,00:00:37,913.68 MB,89.23%,1.00 GB
