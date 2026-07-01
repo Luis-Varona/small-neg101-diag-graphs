@@ -3,4 +3,8 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-pink.svg)
 [![Code Style: Blue](https://img.shields.io/badge/code%20style-blue-4495d1.svg)](https://github.com/JuliaDiff/BlueStyle)
 
-<!-- TODO: Write here -->
+This is a computational survey of small $\\{-1,0,1\\}$-diagonalizable (and Laplacian integral) graphs for the paper "Enumeration of Laplacian integral and $\\{-1,0,1\\}$-diagonalizable graphs" by Nathaniel Johnston, Sarah Plosker, and Luis M. B. Varona.
+
+Code used to generate this data is present in `src/`, computational results are stored in Apache Arrow format in `data/`, and the job scripts used to run this survey on the Nibi cluster at the University of Waterloo are present in `jobs/`. (The `benchmarks/` directory contains, for convenient reference, records of walltime and RAM required to run said jobs.)
+
+The authors thank Matt Betti and the Digital Research Alliance of Canada for providing computational resources that were necessary to carry out this work.
