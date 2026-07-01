@@ -7,4 +7,6 @@ This is a computational survey of small $\\{-1,0,1\\}$-diagonalizable (and Lapla
 
 Code used to generate this data is present in `src/`, computational results are stored in Apache Arrow format in `data/`, and the job scripts used to run this survey on the Nibi cluster at the University of Waterloo are present in `jobs/`. (The `benchmarks/` directory contains, for convenient reference, records of walltime and RAM required to run said jobs.)
 
-The authors thank Matt Betti and the Digital Research Alliance of Canada for providing computational resources that were necessary to carry out this work.
+`data/3_regular_diagonalizations.txt` contains data on 3-regular $\\{-1,0,1\\}$-diagonalizable of select graphs independently produced by Nathaniel Johnston using similar computational methods, also referenced by the paper.
+
+The authors thank Matthew Betti and the Digital Research Alliance of Canada for providing computational resources that were necessary to carry out this work.
