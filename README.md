@@ -2,6 +2,7 @@
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-pink.svg)
 [![Code Style: Blue](https://img.shields.io/badge/code%20style-blue-4495d1.svg)](https://github.com/JuliaDiff/BlueStyle)
+[![DOI](https://zenodo.org/badge/1239328776.svg)](https://doi.org/10.5281/zenodo.21114288)
 
 This is a computational survey of small $\\{-1,0,1\\}$-diagonalizable (and Laplacian integral) graphs for the paper "Enumeration of Laplacian integral and $\\{-1,0,1\\}$-diagonalizable graphs" by Nathaniel Johnston, Sarah Plosker, and Luis M. B. Varona.
 
